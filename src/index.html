@@ -28,7 +28,7 @@
             autocomplete="off"
           >
         </div>
-        <div class="label">
+        <div class="form-field">
           <label for="fname">Name:</label>
           <input
             type="text"
@@ -38,7 +38,7 @@
             required
           >
         </div>
-        <div class="label">
+        <div class="form-field">
           <label for="old">How old are You?</label>
           <input
             type="number"
@@ -51,7 +51,7 @@
             max="199"
           >
         </div>
-        <div class="label">
+        <div class="form-field">
           <label for="datebirth">Full date of birth:</label>
           <input
             type="date"
@@ -60,7 +60,7 @@
             required
           >
         </div>
-        <div class="label">
+        <div class="form-field">
           <label for="check">I accept the term of the agreement</label>
           <input
             type="checkbox"
@@ -72,7 +72,7 @@
       </fieldset>
       <fieldset class="firstform" id="first2">
         <legend>Registration</legend>
-        <div class="label">
+        <div class="form-field">
           <label for="email">E-mail:</label>
           <input
             type="email"
@@ -84,7 +84,7 @@
             autocomplete="off"
           >
         </div>
-        <div class="label">
+        <div class="form-field">
           <label for="pass">Password:</label>
           <input
             type="password"
@@ -97,24 +97,27 @@
       </fieldset>
       <fieldset class="firstform" id="first3">
         <legend>An interesting fact about you!</legend>
-        <div class="label">
+        <div class="form-field">
           <label for="cats">Do you love cats?</label>
-          <input
-            type="radio"
-            id="cats"
-            name="fav_language"
-            value="yes"
-          >
-            Yes
-          <input
-            type="radio"
-            id="cate"
-            name="fav_language"
-            value="no"
-          >
-          No
+          <label for="yes">Yes
+            <input
+              type="radio"
+              id="yes"
+              name="fav_language"
+              value="yes"
+            >
+            
+          </label>
+          <label for="no">No
+            <input
+              type="radio"
+              id="no"
+              name="fav_language"
+              value="no"
+            >
+          </label>
         </div>
-        <div class="label">
+        <div class="form-field">
           <label for="favcolor">What is your favorite color?</label>
           <input
             type="color"
@@ -123,7 +126,7 @@
             value="#000000"
           >
         </div>
-        <div class="label">
+        <div class="form-field">
           <label for="time">What time do you go to bed?</label>
           <input
             type="time"
@@ -132,7 +135,7 @@
             step="1"
           >
         </div>
-        <div class="label">
+        <div class="form-field">
           <label for="cars">What are your favorite brand of cars?
             <select
               multiple
@@ -145,7 +148,7 @@
             </select>
           </label>
         </div>
-        <div class="label">
+        <div class="form-field">
           <label for="range">How do you rate our work?</label>
           <input
             type="range"
@@ -160,7 +163,7 @@
       </fieldset>
       <fieldset class="firstform" id="first4">
         <legend>Additional info:</legend>
-        <div class="label">
+        <div class="form-field">
           <label for="textarea">Comments:</label>
           <textarea
             id="textarea"
@@ -169,7 +172,7 @@
           >
           </textarea>
         </div>
-        <div class="label">
+        <div class="form-field">
           <label for="reco">Would you recommend us?</label>
           <select name="reco" id="reco">
             <option value="yes">yes</option>
